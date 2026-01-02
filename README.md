@@ -15,12 +15,21 @@ effect inspired by 3D rendering pipelines.
 - Cross-platform (Windows / Linux)
 
 
+## 🎥 Demo
+[Click to watch demo video](https://github.com/yuvika-03/Perspective-Tilt-Image-Viewer/blob/main/output.mp4)
+
+
 ## How it works
 - Image is first rotated into a render target
 - Perspective tilt is simulated by slicing the texture
 - Each slice is scaled independently to simulate depth
 
 This mimics a simplified 3D projection using only 2D rendering.
+
+
+## Why This Project?
+This project was built to explore how perspective and depth effects can be achieved without using full 3D graphics APIs, strengthening understanding of rendering fundamentals.
+
 
 ## Build (MSYS2 UCRT64)
 ```bash
